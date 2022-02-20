@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+/*
+font-family: 'Kumbh Sans', sans-serif;
+font-weight: 400, 700;
+*/
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: hsl(185, 75%, 39%) ;
+    font-family: 'Kumbh Sans', sans-serif;
+    overflow-x: hidden;
+}
+#card-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+#attribution {
+    background-color: hsl(185, 75%, 39%);
+    width: 100%;
+    position: relative;
+}
+/* Card */
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 20px;
+    width: 370px;
+    z-index: 1;
+    overflow: hidden;
+}
+/* card-footer */
+.card-header {
+    background: url("images/bg-pattern-card.svg");
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 150px;
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+/* Card-Body
+font-weight: 400, 700;
+*/
+.card-body {
+    width: 100%;
+    text-align: center;
+}
+.card-body h2 {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 700;
+    color: hsl(229, 23%, 23%);
+}
+.card-body span {
+    margin-left: 10px;
+}
+.card-body span, h3 {
+    color: hsl(227, 10%, 46%);
+}
+.card-body h3 {
+    margin:10px 0 20px ;
+}
+.avatar {
+    border-radius: 100%;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #fff;
+    margin: -50px auto 25px;
+}
+/* card-footer */
+.card-footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    border-top: solid;
+    border-width: 1px;
+    border-color: hsl(0, 5%, 78%);
+    padding: 30px;
+    text-align: center;
+    line-height: 1.8rem;
+    color: hsl(229, 23%, 23%);
+}
+.card-footer h4{
+    color:hsl(227, 10%, 46%);
+}
+.circles .c1,.c2 {
+    position: absolute;
+    overflow: hidden;
+}
+.c1 {
+    top: -450px;
+    left: -400px;
+}
+.c2 {
+    bottom: -700px;
+    right: -300px;
+}
+
